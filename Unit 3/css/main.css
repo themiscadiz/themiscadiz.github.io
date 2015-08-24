@@ -1,0 +1,85 @@
+
+body{
+	background-image: url("../Images/signalcover.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #444;
+}
+
+
+/*style of the div in the navbar*/
+#navbarstyle{
+	width:100%;
+	height:50px;
+	background-color: #444;
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1; /*not exacly sure what happend here*/
+}
+
+
+/*linkstyle- style of the TEXT in the nav bar*/
+.linkstyle{	
+	padding-right: 25px;
+	color:white;
+	text-decoration: none;
+	font-size: 1em;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+
+/*Organize menu links- inline form*/
+.navibar{
+	display: inline;
+}
+
+
+/*Organize menu links to the right*/
+.navlinksright{ 
+	text-align:right;
+}
+
+
+/*make a logo button on the top left.*/
+#logodetail{
+	display:block;
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	background-color: #FF3842;
+	margin-left: 25px;
+	margin-top: 5px;
+}
+
+
+/*Position and size of the name*/
+#name{
+	margin-top: 10%;
+	padding-left: 35px;
+	height: 30%;
+	width:30%;
+}
+
+
+/*Gives text a square shape */
+#FormIntroparagraph{
+	width:300px;
+	height:100px;
+}
+
+
+/*Intro p style and place*/
+#Intro-p{ 
+	padding-top: 10px;
+	padding-left: 35px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color:white;
+	text-align:justify; 
+}
+#writemecolorfont{
+	color: white;
+}
+
