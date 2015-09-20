@@ -1,0 +1,317 @@
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body{
+	background:#F4FAFF;
+}
+#wrapper{
+	width: 80%;
+	margin: 0, auto;
+	padding-left: 10%;
+}
+h3{
+	font-family: Roboto, sans-serif;
+	color: #F4FAFF;
+	font-size: 1.8em;
+	text-align: center;
+	font-weight: 300;
+}
+
+p{
+	font-family: Raleway, sans-serif;
+	text-align: justify;
+	font-size: 1.0em;
+	color:#B5B9BD;
+	padding-top: 10%;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+p a {
+	text-decoration: none;
+	color: white;
+}
+/*header*/
+
+#logoname{
+	color:#707375;
+	font-family: Roboto, sans-serif;
+	font-size: 35px;
+	font-weight: 300;
+	text-decoration: none;
+	float: left;
+	padding-top: 5px;
+	
+}
+
+nav a{
+	text-decoration: none;
+	
+	color:#707375;	
+	font-size: 17px;
+	font-family: Roboto, sans-serif;
+	width: 90px;
+	display:block;
+	padding: 20px;
+	text-align: center;
+	float: right;	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+}
+nav a:hover{
+	color: #C23F25;
+}
+#navstyle{
+	width: 100%;
+	height: 100px;
+}
+
+
+/*cover area*/
+
+
+#coverimg{
+	width:100%;
+	float: left;
+}
+
+#pintro{
+	 
+	margin-top: 0px;
+	text-align: center;
+	color:#707375;
+	font-family: Roboto, sans-serif;
+	font-size: 35px;
+	font-weight: 300;
+	padding-top: 5%;
+	padding-bottom: 7%;
+	
+}
+
+
+
+
+/*1st Article*/
+
+.row1-3{
+	overflow: auto;
+	display: block;
+	background-color: #222;
+}
+
+#firstimag{
+	width: 50%;
+	height: auto;
+	float: right;
+}
+
+#textone{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+#list1{
+	list-style: none;	
+	padding-bottom: 10%;
+	padding-top: 5%;
+	padding-left: 17%;
+	display: block;
+}
+
+li{
+/*	color:#707375;*/	
+	font-size: 17px;
+	font-family: Roboto, sans-serif;
+	float:left;
+	width:20%;
+	height: 6em;
+	outline: 5px solid #222;
+	text-align: center;
+	line-height: 6em;
+	background: #ffffff;
+}
+#uno{
+	background: #467D7F;
+
+}
+#dos{
+	background: #D8FDFF;
+}
+#tres{
+	background: #708485;
+}
+#cuatro{
+	background: #70C8CC;
+}
+
+/*#uno{
+	background: #F5600C;
+
+}
+#dos{
+	background: #F27D3A;
+}
+#tres{
+	background: #F3A97C;
+}
+#cuatro{
+	background: #F0C3A4;
+}*/
+
+
+
+/*2nd Article*/
+
+#texttwo{
+	width: 50%;
+	height: auto;
+	float: right;
+}
+
+.row2-3{
+	overflow: auto;
+	display: block;
+	background-color: #468285;
+}
+#secondimage{
+
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+/*3 Article*/
+
+#textthree{
+	width: 50%;
+	height: 75%;
+	float: left;
+}
+
+.row3-3{
+
+	overflow: auto;
+	display: block;
+	background-color: #333;
+}
+#thirdimage{
+	width: 50%;
+	height: auto;
+	float: right;
+}
+
+#photopage1img{
+	width: 100%;
+}
+
+/*photography page*/
+
+#imachina{
+	width: 100%;
+
+}
+#wrapper2{
+	width: 75%;
+	padding-left: 12%;
+}
+#pintro2{
+	margin-top: 0px;
+	text-align: center;
+	color:#707375;
+	font-family: Roboto, sans-serif;
+	font-size: 35px;
+	font-weight: 300;
+	padding-top: 5%;
+	padding-bottom: 3%;
+}
+#row1{
+	/*background: pink;*/
+}
+#pic1{
+	width: 300px;
+	height: auto;
+	float: left;
+	padding: 5%;
+}
+#pic2{
+	width: 330px;
+	height: auto;
+	padding: 5%;
+	padding-left: 7%;
+}
+#pic3{
+	float: right;
+	width: 300px;
+	height: auto;
+	padding: 5%;
+}
+
+
+#row2{
+	/*background: orange;*/
+}
+#pic4{
+	width: 300px;
+	height: auto;
+	float: left;
+	padding: 5%;
+}
+#pic5{
+	width: 330px;
+	height: auto;
+	padding: 5%;
+	padding-left: 7%;
+}
+#pic6{
+	float: right;
+	width: 300px;
+	height: auto;
+	padding: 5%;
+}
+
+.aboutlink{
+	display: block;
+	width: 300px;
+	height: 300px;
+	background: #FF6622;	
+	margin: auto;
+	margin-bottom: 100px;
+	border-radius: 15px 50px 30px;
+	position: relative;
+}
+
+.aboutlink:hover{
+	background: #FF7C0E;
+}
+#quote{
+	
+	color: white;	
+	font-family: Roboto, sans-serif;
+	font-size: 35px;
+	font-weight: 300;
+	padding-top: 110px;
+}
+
+a{
+	text-decoration: none;
+	text-align: center;
+}
+
+
+#aboutpic{
+	width: 50%;
+	height: auto;
+	padding-left: 5%;
+	padding-bottom: 5%;
+}
+
+#pintro3{
+	float: left;
+	margin-top: 0px;
+	color:#707375;
+	font-family: Roboto, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+}
