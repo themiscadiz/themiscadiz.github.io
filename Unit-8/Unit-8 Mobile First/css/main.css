@@ -299,36 +299,6 @@ li{
 
 }
 
-/*#pic-area2{
-	display: block;
-	float: right;
-	width: 50%;
-	height: auto;
-}
-*/
-
-/*	img {
-		width: 50%;
-		float: left;
-	}
-	footer {
-		clear: both;
-	}
-	nav a {
-		width: 25%;
-		padding: .25em 0;
-		display: block;
-		float: left;
-	}
-	nav a#mobilenav {
-		display: none;
-	}
-	h3 {
-		display: block;
-		font-family: "Jenna Sue";
-		font-size: 3em;
-	}
-}*/
 
 @media only screen and (min-width: 768px) {
 	body {
@@ -356,11 +326,7 @@ li{
 		margin-left: 1em;
 	}
 
-/*#headerstyle{
-	display: block;
-	position: relative;
-}
-*/
+
 /*Navigation Bar*/
 	nav a#mobilenav{
 	display: none;
