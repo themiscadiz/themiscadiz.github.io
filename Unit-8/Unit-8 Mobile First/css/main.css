@@ -225,7 +225,7 @@ li{
 }
 
 
-@media only screen and (min-width: 320px){
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
 	body {
 		font-size: 14px;
 	}
@@ -237,14 +237,56 @@ li{
 		margin: 2.5%;		
 	}
 
+	#row1_mini_wrapper{	
+	display: block;
+	float: left;
+	width: 50%;
+	}
+
+	#isla_row1{
+	display: block;
+	float: right;
+	width: 45%;
+	margin: 2.5%;	
+	height: auto;
+	}
+
+	#pic-area1{
+		display: none;
+	}
+
+	#row1:after{
+		display: block;
+		content: "";
+		clear: both;
+		height:0;	
+		visibility: hidden;
+	}
+
 	#aboutpicdiv{
-		margin: auto;
+		float: right;
 		width: 240px;
+		margin: auto;		
 		height: auto;
+	}
+
+	#aboutinfo{
+		float: left;
+		width: 50%;
+
+	}
+
+
+	#row3:after{
+		display: block;
+		content: "";
+		clear: both;
+		height:0;	
+		visibility: hidden;
 	}
 }
 
-@media only screen and (min-width: 360px) {
+/*@media only screen and (min-width: 360px) {
 
 	.row2_mini_divs {
 	width: 33.333%;
@@ -297,7 +339,7 @@ li{
 		visibility: hidden;
 	}
 
-}
+}*/
 
 
 @media only screen and (min-width: 768px) {
