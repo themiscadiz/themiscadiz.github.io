@@ -263,6 +263,13 @@ li{
 		visibility: hidden;
 	}
 
+	.row2_mini_divs {
+		width: 33.333%;
+		float: left;
+		margin: auto;
+		margin-top: 2em;
+	}
+
 	#aboutpicdiv{
 		float: right;
 		width: 240px;
