@@ -277,12 +277,17 @@ li{
 		font-size: 14px;
 	}
 
+	/*	Header Style*/
+
 	#homecovertext{ /*Text in the image*/
 		position: absolute; 
     	top: 100px;     	
-    	width: 50%; 
+    	width: 400px; 
+
+
+
     	font-size: 1.2em;
-    	background-color: white;    	
+    	/*background-color: white;  */  	
 		height: auto;
 		border:none;		
 		border-radius:none;
@@ -299,7 +304,7 @@ li{
 		float: left;
 	}
 
-	/*	Header Style*/
+	
 
 	#top_icon{
 		
