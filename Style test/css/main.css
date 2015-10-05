@@ -17,10 +17,12 @@ body {
 
 nav {
 	background-color: #1A89BA;
+	/*background-color: #6C7A89;*/
 	
 }
 
 nav a {
+	
 	color: #ffffff;
 	text-decoration: none;
 	display: none; /*hamburger nav*/
@@ -28,16 +30,19 @@ nav a {
 }
 
 nav a#mobilenav {
+	
 	font-size: 2em;
 	padding: 0;
 	display: block;/*hamburger nav*/
 }
 
 nav a:hover {
+	
 	background-color: #FC9956;
 }
 
 nav:hover a {
+
 	display: block;	/*hamburger nav*/
 }
 
@@ -65,6 +70,7 @@ nav:hover a {
 #coverimg{
 	width: 100%;
 	height: auto;
+
 }
 
 /*Parrafo de Intro*/
@@ -108,19 +114,39 @@ h1{
 
 h3{
 	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 2em;
+	color: #444;
+	margin-bottom: 1em;
+	margin-top: 1.5em;
+	padding: 1em 0em;
+	background-color: #DADFE1;
+
+	/*color: white;*/
+}
+
+.hstyle_last{
+	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 1.5em;
-	color: #555555;
-	margin-bottom: 2em;
-	margin-top: 2em;
+	color: #444;
+	margin-bottom: 0em;
+	padding: .25em;
+	background-color: #DADFE1;
+	/*margin-top: 1.5em;*/
+	/*padding: .10em 0em;*/
+	
+
 }
 
 #area1_row1{
+
 	display: block;
 	width: 90%;
 	/*background: #3196CE;*/
-	background-color: #1E8BC3;
-	border-radius: 20px;	
+	/*background-color: #1E8BC3;*/
+	border-radius: 20px; 
+	/*border: 2px solid #1E8BC3;*/
 	margin: 0 auto 1.3em;
 	
 	
@@ -129,10 +155,11 @@ h3{
 }
 
 #homep1{
+
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.3em;
+	font-size: 1.4em;
 	padding: .70em;
-	color: #ffffff;
+	color: #1E8BC3;
 	font-weight: 600;
 	text-align: left;
 }
@@ -141,8 +168,8 @@ h3{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.2em;
 	padding: .80em;
-	color: #ffffff;
-	font-weight: 400;
+	color: #555555;
+	font-weight: 600;
 	text-align: left;
 
 
@@ -152,10 +179,13 @@ li{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.2em;
 	padding: .80em;
-	color: #ffffff;
+	color: #555555;
 	font-weight: 400;
 	text-align: left;
-	line-height: 1;
+	line-height: .35;
+	text-indent: 1.5em;
+
+	
 
 
 	/*text-transform: uppercase;*/
@@ -163,8 +193,14 @@ li{
 
 ul{
 	padding-bottom: 2em;
+	
 
 }
+
+/*#img2{
+	width: 90%;
+	margin: 0 5% 0;
+}*/
 
 /*#pic-ssa{
 	width: 90%;
@@ -190,7 +226,7 @@ ul{
 	
 	width: 90%;	
 	/*background-color: #FC9956;*/
-	background-color: #F9690E;
+	/*background-color: #F9690E;*/
 	border-radius: 20px;
 	margin: 0 auto 1.3em;
 	
@@ -201,17 +237,28 @@ ul{
 }
 
 #mapaisla{
-	width: 90%;
+	width: 80%;
 	height: auto;
-	margin: 2em 1em 1em;
+	margin: 1em 1em 1em;
 }
 
 #homep3{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.3em;
-	padding: .70em;
-	color: #ffffff;
+	font-size: 1.4em;
+	padding: .70em .70em 0 .70em;
+	color: #1E8BC3;
+	/*color: #555555;*/
 	font-weight: 600;
+	text-align: center;
+
+}
+
+#homep4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	padding: 0em .70em 0 .70em;
+	color: #555555;
+	font-weight: 400;
 	text-align: center;
 
 }
@@ -245,6 +292,15 @@ ul{
 	color: #444444;
 	font-weight: 400;
 	text-align: center;
+
+	
+}
+
+.row2_s_style{
+	font-size: 1.3em;
+	color: #FF931E;
+	font-weight: 600;
+
 }
 
 .row2_mini_divs{	
@@ -253,46 +309,91 @@ ul{
 	display: block;
 	/*background-color: black;*/
 	margin: auto;
-	margin-bottom: .50em;
+	margin-bottom: 3em;
+	
 }
 
 /*Row3*/
 
 #row3{
-	background-color: #6C7A89;
+	background-color: #FFF;
 	padding: 1.5em;
-	border-radius: 20px;
+	/*border-radius: 20px;*/
 	
 }
 
 #aboutpic{
-	width: 90%;
+	width: 80%;
 	height: auto;
 	display: block;
 	border-radius: 100%;
-	border: 10px solid #FC9956;
+	border: 10px solid #00AAD4;
 	margin: auto;
 }
 
 
 .p_row3{
-	color: #FFFFFF;
+	color: #555555;
 	padding: 1.5em;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.1em;
 	font-weight: 400;
 	text-align: center;
+
+	
 }
 
 #s_row3{
-	font-size: 1.7em;
+
+	font-size: 1.3em;
+	color: #FF931E;
+	font-weight: 500;
+
+
+	/*font-size: 1.7em;*/
 }
+
+	footer{
+
+		background-color: #6C7A89;
+		height: 150px;
+		width: 100%;
+		margin-top: 0px;
+
+
+	}
+
+/*#p5_style{
+	margin-top: 2em;
+	width: 80%;
+	height: auto;
+	border: 3px solid #555;
+	margin: 3em auto 3em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: .90em;
+	color: #444;
+	-webkit-box-shadow: -5px 7px 5px -1px rgba(204,204,204,0.72);
+ 	-moz-box-shadow: -5px 7px 5px -1px rgba(204,204,204,0.72);
+	box-shadow: -5px 7px 5px -1px rgba(204,204,204,0.72);
+	clear: both;
+	text-decoration: none;
+}
+
+
+#p5_style:hover{
+	background: #FF931E;
+}*/
 
 @media only screen and (min-width : 500px){
 
 
 	body {
 		font-size: 14px;
+	}
+
+	h3{
+		font-size: 3em;
 	}
 
 
@@ -308,9 +409,12 @@ ul{
 		float: left;
 		width: 50%;
 		margin-left: 5%;
-		margin-right: 2.5%;
-		height: 350px;
+		margin-right: 0%;
+		height: 390px;
 		display: inline-block;
+		-webkit-box-shadow: -5px 7px 5px -1px rgba(204,204,204,0.72);
+ 		-moz-box-shadow: -5px 7px 5px -1px rgba(204,204,204,0.72);
+		box-shadow: -5px 7px 5px -1px rgba(204,204,204,0.72);
 	}
 
 /*	#area2_row1{
@@ -320,16 +424,23 @@ ul{
 		display: inline-block;
 	}*/
 
+	#linea_home{
+		display: none;
+	}
+
 	#isla_row1{
 		
 		display: block;
 		float: right;
-		width: 35%;
+		width: 40%;
 
-		margin-left: 2.5%;
+		margin-left: 0%;
 		margin-right: 5%;
 		/*margin: 2.5%;*/	
-		height: 350px;
+		height: 390px;
+		-webkit-box-shadow: -5px 7px 5px -1px rgba(204,204,204,0.72);
+		-moz-box-shadow: -5px 7px 5px -1px rgba(204,204,204,0.72);
+		box-shadow: -5px 7px 5px -1px rgba(204,204,204,0.72);
 		
 		/*height: 300px;*/
 	}
@@ -366,7 +477,12 @@ ul{
 		height: auto;
 	}
 
+	#aboutpic{
+	margin-top: 25%;
+}
+
 	#aboutinfo{
+		margin-top: 9%;
 		float: left;
 		width: 50%;
 	}
@@ -409,6 +525,34 @@ ul{
    		width: 100%;   		
 	}
 
+
+	#area1_row1{
+		height: 390px;
+		width: 300px;
+		margin: 0 0 2em 10%;
+	}
+
+
+	#isla_row1{
+		padding-top: 0%;
+		height: 390px;
+		width: 300px;
+		padding-bottom: 0em;
+		margin: 0 10% 2em 0;
+	}
+
+/*	#area1_row1{
+		margin: 0 5% 2em;
+		height: 400px;
+	}
+
+	#isla_row1{
+		margin: 0 5% 2em;
+		height: 400px;
+	}
+*/
+
+
 	.row2_mini_divs {
 		width: 20%;
 		margin: 2.5%;
@@ -450,16 +594,30 @@ ul{
 		display: inline-block;
 	}
 
-	#area1_row1{
-		height: 300px;
+	#aboutpicdiv{
+		float: right;
+		width: 40%;
+		margin: auto;
+		margin-right: 7%;		
+		height: auto;
 	}
 
+	#aboutpic{
+	margin: 7% auto 3em;
+}
 
-	#isla_row1{
-		padding-top: 0%;
-		height: 300px;
-		padding-bottom: 0em;
+
+/*	#footernav a{
+		color: #333;
+		background-color: #6C7A89;
 	}
+	#footernav a:hover{
+		color: #EEE;
+		
+	}
+*/
+
+
 }
 
 @media only screen and (min-width: 1024px){
@@ -470,6 +628,14 @@ ul{
 		width: 1024px;
 		margin: 0 auto;
 		background-color: white;
+	}
+
+	#area1_row1{
+		margin: 0 0 2em 15%;
+	}
+
+	#isla_row1{
+		margin: 0 15% 2em 0;
 	}
 
 	#aboutpicdiv{
