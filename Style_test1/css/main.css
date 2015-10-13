@@ -526,7 +526,7 @@ footer p{
 #ssa_cardv{
 	display: none;
 }
-#dolor_pic{
+#dolor_pic_v{
 	display: none;
 }
 
@@ -983,16 +983,18 @@ article:after{
 background-color: #DADFE1;
 }
 
-#dolor_pic{
-		width: 50%;
-		float: right;
-		display: block;
-		clear: left;	
+#dolor_pic_h{
+	display: none;
 }
 
-	#dolor_pic_h{
-		display: none;
-	}
+#dolor_pic_v{
+	display: block;
+	width: 50%;
+	float: right;		
+	clear: left;	
+}
+
+
 	#page2row3{
 		width: 50%;
 		float: left;
