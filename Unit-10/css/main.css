@@ -1,0 +1,1123 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600);
+
+body {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #555555;
+	line-height: 1.6;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+/*header*/
+
+nav {
+	/*background-color: #1A89BA;
+		*/
+	background-color: #0091EA;
+}
+
+nav a {	
+	color: #ffffff;
+	text-decoration: none;
+	display: none; /*hamburger nav*/
+	padding: .5em;
+}
+
+nav a#mobilenav {	
+	font-size: 2em;
+	padding: 0;
+	display: block;/*hamburger nav*/
+}
+
+nav a:hover {	
+	background-color: #FC9956;
+
+	font-weight: 600;
+}
+
+nav:hover a {
+	display: block;	/*hamburger nav*/
+}
+
+#top_icon{
+	display: block;
+	width: 45px;
+	height: auto;
+	margin: .55em auto .01em;
+}
+
+.logoname{
+	font-family: Helvetica, sans-serif;
+	font-size: 1.5em;
+	text-decoration: none;
+	display: block;
+	/*color: #1A89BA;*/
+	color: #0091EA;
+} 
+
+.a{
+	font-size: .75em;
+	text-decoration: none;
+	color: #F58235;
+}
+
+#coverimg{
+	width: 100%;
+	height: auto;
+}
+
+#coverimg_contact{
+	display: none;
+	/*width: 100%;
+	height: auto;*/
+}
+
+/*Fonts*/
+
+/*Text Intro*/
+
+h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #555555;
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+#homecovertext p{	
+	color: #555555;
+	font-size: .90em;	
+	line-height: 1.5;
+	padding: 1em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+#homecovertext span{
+	color: #D35400;	
+	font-weight: 600;
+	font-size: 1.3em;
+}
+#homecovertext{
+	width: 85%;
+	height: auto;
+	border: 6px solid #FC9956;
+	border-radius: 7px 50px 30px;
+	margin: 0 5% 2.5em;
+}
+
+/*Letras en Azul*/
+.p_1{
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4em;
+	padding: .70em;
+	color: #1E8BC3;
+	font-weight: 600;
+	text-align: center;
+}
+
+/*.p_1_contact{
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4em;
+	padding: .70em;
+	color: #1E8BC3;
+	font-weight: 600;
+	text-align: left;
+}*/
+/*Letras Bold Gris*/
+
+.p_2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	padding: .80em;
+	color: #555555;
+	/*color: #1E8BC3;*/
+	font-weight: 600;
+	text-align: left;
+}
+
+.p_2_s{
+	font-family: 'Open Sans', sans-serif;
+	font-size: .90em;
+	padding: .80em;
+	color: #555555;
+	/*color: #1E8BC3;*/
+	font-weight: 600;
+	text-align: left;
+}
+
+.p_c{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	padding: .80em;
+	/*color: #555555;*/
+	color: #1E8BC3;
+	font-weight: 600;
+	text-align: left;
+}
+
+
+.p_2_faq{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	padding: .80em;
+	/*color: #555555;*/
+	color: #1E8BC3;
+	font-weight: 600;
+	text-align: left;
+}
+.a_faq{
+	text-decoration: none;
+	color: #1E8BC3;
+}
+.a_faq:hover{
+	font-weight: 600;
+
+}
+
+.p_2_center{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	padding: .80em;
+	color: #555555;
+	font-weight: 600;
+	text-align: center;
+}
+
+.p_4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	padding: 0em .70em 0 .70em;
+	color: #555555;
+	font-weight: 400;
+	text-align: center;
+}
+
+/*Content Style*/
+
+.phone{
+	width: 35px;
+	height: 35px;
+}
+
+/*First Row*/
+
+.h3style{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 2em;
+	/*color: #444;*/
+	margin-bottom: 1em;
+	margin-top: 1.5em;
+	padding: .50em 0em;
+	/*background-color: #DADFE1;*/
+	/*background-color: #FF6F00;*/
+	/*background-color: #03A9F4;*/
+	/*background-color: #EF6C00;*/
+	background-color: #0091EA;
+
+	color: white;
+}
+
+.h3stylepage2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 2em;
+	/*color: #444;*/
+	padding: 1em 0em;
+	/*background-color: #DADFE1;*/
+	width: 100%;
+	/*background-color: #03A9F4;*/
+	/*background-color: #EF6C00;*/
+	background-color: #0091EA;
+	color: white;
+
+}
+
+.s_style{
+	font-size: 1.3em;
+	color: #FF931E;
+	font-weight: 600;
+}
+
+.p_style{
+	width: 150px;
+	margin: auto;	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	padding: .80em;
+	color: #444444;
+	font-weight: 400;
+	text-align: center;	
+}
+
+.s_style2{
+
+	font-size: 1.3em;
+	color: #FF931E;
+	font-weight: 500;
+}
+
+.p_row3{
+	color: #555555;
+	padding: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.1em;
+	font-weight: 400;
+	text-align: center;	
+}
+
+.p_5{
+	color: #555555;
+	padding: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.1em;
+	font-weight: 400;
+	text-align: left;	
+}
+
+.hstyle_last{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 1.5em;
+	/*color: #444;*/
+	color: white;
+	margin-bottom: 0em;
+	padding: 2em .25em 2em;
+	/*background-color: #DADFE1;*/
+	
+	background-color: #FF931E;
+	
+	 
+
+}
+
+#area1_row1{
+	display: block;
+	width: 90%;
+	/*background: #3196CE;*/
+	/*background-color: #1E8BC3;*/
+	border-radius: 20px; 
+	/*border: 2px solid #1E8BC3;*/
+	margin: 0 auto 1.3em;	
+	/*font-family: "Raleway",Arial,Verdana,sans-serif;*/	
+}
+
+.list1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	padding: .80em .80em .50em 0;	
+	color: #555555;
+	font-weight: 400;
+	text-align: left;
+	line-height: .35;
+	text-indent: 1.2em;	
+}
+.check_img{
+	padding-right: 5px;
+}
+
+
+
+ul{
+	padding-bottom: 2em;
+
+	 
+}
+/*ul{
+	padding-bottom: 2em;
+	}*/
+/*#img2{
+	width: 90%;
+	margin: 0 5% 0;
+}*/
+
+/*#pic-ssa{
+	width: 90%;
+	height: auto;
+	border-radius: 20px;
+}*/
+
+/*#area2_row1{
+	display: block;
+	width: 90%;
+	background: #FC9956;
+	margin: 0 auto 1.3em;
+	border-radius: 20px;
+	color: #ffffff;
+	padding: 1em;
+	text-align: left;
+	font-family: "Raleway",Arial,Verdana,sans-serif;
+}*/
+
+
+
+#isla_row1{
+	
+	width: 90%;	
+	/*background-color: #FC9956;*/
+	/*background-color: #F9690E;*/
+	border-radius: 20px;
+	margin: 0 auto 1.3em;
+	
+}
+
+
+#pic-area2{
+	display: none;
+}
+
+#mapaisla{
+	width: 80%;
+	height: auto;
+	margin: 2em 1em 1.5em;
+}
+
+/*#homep3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4em;
+	padding: .70em .70em 0 .70em;
+	color: #1E8BC3;	
+	font-weight: 600;
+	text-align: center;
+}*/
+
+
+
+/*Ventajas*/
+
+#row2_mini_wrapper{
+	margin-top: 3em;
+}
+
+.img_ventajas{
+	width: 125px;
+	height: 125px;
+	border-radius: 100%;
+}
+
+#row2:after{
+	display: block;
+	content: "";
+	clear: both;
+	height:0;
+	font-size: 0;
+	visibility: hidden;
+}
+
+
+
+
+.row2_mini_divs{	
+	width: 100%;
+	height: 300px;
+	display: block;
+	/*background-color: black;*/
+	margin: auto;
+	margin-bottom: 3em;
+	
+}
+
+/*Row3*/
+
+#row3{
+	background-color: #FFF;
+	padding: 1.5em;
+	/*border-radius: 20px;*/
+	
+}
+
+#aboutpic{
+	width: 80%;
+	height: auto;
+	display: block;
+	border-radius: 100%;
+	border: 10px solid #00AAD4;
+	margin: auto;
+}
+
+
+
+
+
+
+footer{
+
+	background-color: #555555;
+	/*height: 150px;*/
+	height: 100px;
+	width: 100%;
+
+	/*margin-top: 0px;*/
+}
+
+/*.fb-like{
+
+	float: left;
+	margin: 2em auto .50em;
+}*/
+
+footer p{
+	font-size: .80em;
+	color: white;
+}
+
+#p_footer{
+	/*background-color: orange;*/
+	width: 100%;
+	clear: both;
+	/*padding-bottom: 5%;*/
+	padding-top: 15px;
+}
+
+
+.fb_logo{
+	display: inline-block;
+	/*float: left;*/
+	/*margin: 1.5em;*/
+	margin: 0 0 0 10px;
+	width: 45px;
+	height: auto;
+}
+/*.like_logo{
+	display: block;
+	float: left;
+	margin-top: 3em;
+	width: 25px;
+	height: auto;
+}*/
+.fb_logo:hover{
+	width: 50px;
+}
+.like_logo:hover{
+	width: 30px;
+}
+#footernav a{
+	color: white;
+	background-color: #555555;
+	font-weight: 300;
+
+}
+
+#footernav a:hover{
+	background-color: #555555;
+	color: white;
+	font-weight: 500;
+
+}
+#fb_page{
+
+}
+
+/*#p5_style{
+	margin-top: 2em;
+	width: 80%;
+	height: auto;
+	border: 3px solid #555;
+	margin: 3em auto 3em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: .90em;
+	color: #444;
+	-webkit-box-shadow: -5px 7px 5px -1px rgba(204,204,204,0.72);
+ 	-moz-box-shadow: -5px 7px 5px -1px rgba(204,204,204,0.72);
+	box-shadow: -5px 7px 5px -1px rgba(204,204,204,0.72);
+	clear: both;
+	text-decoration: none;
+}
+
+
+#p5_style:hover{
+	background: #FF931E;
+}*/
+
+
+/*PAGE-PROCESO DE INCAPACIDAD*/
+
+#ssa_card{
+	width: 100%;
+}
+#ssa_cardv{
+	display: none;
+}
+#dolor_pic_v{
+	display: none;
+}
+
+#dolor_pic_h{
+	width: 100%;
+}
+#etapas_img{
+	width: 99%;
+}
+
+#page2row1{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;	
+}
+
+
+.list2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	padding: .80em;
+	margin-left: 15%;
+	color: #555555;
+	font-weight: 400;
+	text-align: left;
+	/*line-height: .35;*/
+	/*text-indent: 1.5em;*/	
+}
+
+.list3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .98em;
+	/*padding: .80em;*/
+	margin-left: 20%;
+	color: #555555;
+	font-weight: 400;
+	text-align: left;
+	position: relative;
+}
+
+.list4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: .98em;
+	/*padding: .80em;*/
+	margin-left: 20%;
+	color: #555555;
+	font-weight: 400;
+	text-align: left;
+	position: relative;
+}
+
+.list5{
+	font-family: 'Open Sans', sans-serif;
+	font-size: .96em;
+	/*padding: .80em;*/
+	margin-left: 20%;
+	color: #555555;
+	font-weight: 400;
+	text-align: left;
+	position: relative;
+}
+
+#listcondiciones_phone{
+	width: 100%;
+	height: auto;
+	background-color: #DADFE1;
+}
+
+#listcondiciones{
+	display: none;
+/*	width: 100%;
+	height: auto;
+	background-color: #DADFE1;*/
+}
+
+#listcondiciones_phone ul{
+	padding-bottom: 3.5em;
+}
+
+
+#listcondiciones ul{
+	padding-bottom: 5em;
+}
+
+#page2row2{
+	background-color: #DADFE1;
+	/*background-color: #FB8C00;*/
+	width: 100%;
+	height: auto;
+	padding-top: 3em;
+
+	
+}
+#page2row3{
+	height: auto;
+}
+
+
+/*Preguntas Frecuentes page*/
+
+	#faq_style{
+		width: 90%;
+		margin: 0 5% 1em;
+	}
+
+/*Contacto page*/
+#intro_text_page2 span{
+	color: #D35400;	
+	font-weight: 600;
+	font-size: 1.3em;
+
+}
+	#info_contacto{
+		
+		width: 90%;
+		height: auto;
+		margin: 1em 5% 3em;
+		text-align: left;
+	}
+
+	#escribe_pregunta{
+		text-align: left;
+		
+		width: 90%;
+		height: auto;
+		margin-bottom: 4em;
+		margin-left: 5%;
+
+	}
+
+
+
+
+
+@media only screen and (min-width : 550px){
+
+
+	body {
+		font-size: 14px;
+	}
+
+	h3{
+		font-size: 1.5em;
+	}
+
+
+/*	#row1_mini_wrapper{	
+		display: block;
+		float: left;
+		width: 66%;
+		height: auto;
+		
+	}*/
+
+	#area1_row1{
+		float: left;
+		width: 50%;
+		margin-left: 5%;
+		margin-right: 0%;
+		height: 415px;
+		display: inline-block;
+		-webkit-box-shadow: -5px 7px 5px -1px rgba(204,204,204,0.72);
+ 		-moz-box-shadow: -5px 7px 5px -1px rgba(204,204,204,0.72);
+		box-shadow: -5px 7px 5px -1px rgba(204,204,204,0.72);
+	}
+
+/*	#area2_row1{
+		float: left;
+		width: 45%;
+		height: 300px;
+		display: inline-block;
+	}*/
+
+	#linea_home{
+		display: none;
+	}
+
+	#isla_row1{
+		
+		display: block;
+		float: right;
+		width: 40%;
+
+		margin-left: 0%;
+		margin-right: 5%;
+		/*margin: 2.5%;*/	
+		height: 415px;
+		-webkit-box-shadow: -5px 7px 5px -1px rgba(204,204,204,0.72);
+		-moz-box-shadow: -5px 7px 5px -1px rgba(204,204,204,0.72);
+		box-shadow: -5px 7px 5px -1px rgba(204,204,204,0.72);
+		
+		/*height: 300px;*/
+	}
+
+
+
+
+	#pic-area1{
+		display: none;
+	}
+
+
+	#row1:after{
+		display: block;
+		content: "";
+		clear: both;
+		height:0;	
+		visibility: hidden;
+	}
+
+	.row2_mini_divs {
+		width: 45%;
+		height: auto;
+		float: right;
+		margin: 2.5%;
+		margin-top: 5%;			
+	}
+
+	#aboutpicdiv{
+		float: right;
+		width: 40%;
+		margin: auto;
+		margin-right: 7%;		
+		height: auto;
+	}
+
+	#aboutpic{
+	margin-top: 25%;
+}
+
+	#aboutinfo{
+		margin-top: 9%;
+		float: left;
+		width: 50%;
+	}
+
+	#row3:after{
+		display: block;
+		content: "";
+		clear: both;
+		height:0;	
+		visibility: hidden;
+	}
+
+
+/*PAGE PROCESO DE INCAPACIDAD*/
+	#etapas_img{
+		width: 75%;
+		margin: 2em auto 2em;
+	}
+
+	#page2row2 p{
+		padding: 1em 10% 1em;
+	} 
+
+	#intro_text_page2{
+		margin: 2em auto 2em;
+
+		}
+
+/*Preguntas Frecuentes page*/
+
+	#faq_style{
+		width: 80%;
+		margin: 0 10% 1em;
+	}
+
+/*CONTACTO PAGE*/
+	#info_contacto{
+		display: block;
+		float: left;
+		width: 55%;
+		height: auto;
+		margin: 1em 1.5% 3em;
+	}
+
+	#escribe_pregunta{
+		display: block;
+		float: right;
+		width: 35%;
+		height: auto;
+		margin: 1em 5% 3em 0px;
+
+	}
+	form{
+		text-align: left;
+		display: block;
+	}
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+	body {
+		font-size: 14px;
+	}
+
+	/*	Header Style*/
+
+	#homecovertext{ /*Text in the image*/
+		position: absolute; 
+    	top: 150px;     	
+    	width: 400px;
+    	font-size: 1.2em;
+    	/*background-color: white;  */  	
+		height: auto;
+		border:none;		
+		border-radius:none;
+		margin: 0 2em 2.5em;
+	}
+
+		h1{
+		font-family: 'Raleway', sans-serif;
+		font-weight: 600;
+		color: #555555;
+		font-size: 1.5em;
+		padding-top: 1em;
+	}
+	#homecovertext p{	
+		color: #555555;
+		font-size: 1.5em;	
+		line-height: 1.5;
+		padding: 1em;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+		font-size: 1.2em;
+	}
+	#homecovertext span{
+		color: #D35400;
+		/*color: #0091EA; */
+		font-weight: 600;
+		font-size: 2em;	
+	}
+
+	#introduction{		
+   		width: 100%;   		
+	}
+
+
+	#area1_row1{
+		height: 410px;
+		width: 300px;
+		margin: 0 0 2em 10%;
+	}
+
+
+	#isla_row1{
+		padding-top: 0%;
+		height: 410px;
+		width: 300px;
+		padding-bottom: 0em;
+		margin: 0 10% 2em 0;
+	}
+
+
+
+
+	.row2_mini_divs {
+		width: 20%;
+		margin: 2.5%;
+		float: left;
+	}
+
+	
+
+	#top_icon{
+		
+		margin: 1em;	
+		display: inline-block;
+		float: left;
+	}
+	.logoname{
+		display: inline-block;
+		float: left;
+		margin-top: 1em;
+		margin-left: 1em;
+	}
+
+
+	/*Navigation Bar*/
+	nav a#mobilenav{
+		display: none;
+	}
+
+	nav a:hover {
+		color: #FC9956;
+		background-color: #FFFFFF;
+	}
+
+	nav a{
+		float: right;
+		text-decoration: none;	
+		color:#707375;	
+		font-size: 1.0em;
+		margin: 1.5em .50em 0; 	
+		display: inline-block;
+	}
+
+	#aboutpicdiv{
+		float: right;
+		width: 40%;
+		margin: auto;
+		margin-right: 7%;		
+		height: auto;
+	}
+
+	#aboutpic{
+	margin: 7% auto 3em;
+}
+
+
+
+
+/*	#footernav a{
+		color: #333;
+		background-color: #6C7A89;
+	}
+	#footernav a:hover{
+		color: #EEE;
+		
+	}
+*/
+
+/*PAGE PROCESO DE INCAPACIDAD*/
+
+#page2row1{
+	width: 45%;
+	display: block;
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+#ssa_card{
+	display: none;
+}
+#ssa_cardv{
+	width: 45%;
+	float: right;
+	display: block;
+
+}
+
+
+article:after{
+	display: block;
+	content: "";
+	clear: both;
+	height:0;
+	font-size: 0;
+	visibility: hidden;
+}
+
+#listcondiciones_phone{
+	display: none;
+}
+
+#listcondiciones{
+	display: block;
+	width: 100%;
+	height: auto;
+	background-color: #DADFE1;
+}
+
+#listcondiciones{
+background-color: #DADFE1;
+}
+
+#ullist3{
+	display: inline-block;
+	width: 40%;
+	float:left;
+	padding-left: 10%;	
+	background-color: #DADFE1;
+}
+
+#ullist4{
+	display: inline-block;
+	width: 40%;
+	float:right;
+	padding-right: 10%;	
+	background-color: #DADFE1;
+}
+
+
+
+
+#dolor_pic_h{
+	display: none;
+}
+
+#dolor_pic_v{
+	display: block;
+	width: 50%;
+	float: right;		
+	clear: left;	
+}
+
+
+	#page2row3{
+		width: 50%;
+		float: left;
+		display: block;
+		}
+
+	#etapas_img{
+		width: 50%;
+		margin: 2em auto 2em;
+	}
+
+	#page2row3_p{
+		width: 80%;
+		margin: 3em auto 1em;
+	}
+
+	/*Preguntas Frecuentes page*/
+
+	#faq_style{
+		width: 60%;
+		margin: 0 26% 1em 14%;
+	}
+	/*CONTACT PAGE*/
+
+	#coverimg_contact{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+	#info_contacto{
+		margin: 1em 0px 3em 5%;
+	}
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 1024px){
+	body{
+		background-color: #ECF0F1;
+	}
+	#page {
+		width: 1024px;
+		margin: 0 auto;
+		background-color: white;
+	}
+
+	#area1_row1{
+		margin: 0 0 2em 15%;
+	}
+
+	#isla_row1{
+		margin: 0 15% 2em 0;
+	}
+
+	#aboutpicdiv{
+		float: right;
+		width: 35%;
+		margin: auto;
+		margin-right: 7%;		
+		height: auto;
+	}
+
+	#aboutinfo{
+		float: left;
+		width: 50%;
+	}
+}

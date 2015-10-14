@@ -450,33 +450,33 @@ ul{
 footer{
 
 	background-color: #555555;
-	height: 150px;
+	/*height: 150px;*/
+	height: 100px;
 	width: 100%;
-	margin-top: 0px;
+
+	/*margin-top: 0px;*/
 }
 
-.fb-like{
+/*.fb-like{
 
-	/*float: left;*/
+	float: left;
 	margin: 2em auto .50em;
-
-}
+}*/
 
 footer p{
 	font-size: .80em;
-	color: white;	
-	
-
+	color: white;
 }
 
 #p_footer{
 	/*background-color: orange;*/
 	width: 100%;
 	clear: both;
-	margin-bottom: 7px;
-	margin-top: 4em;
-
+	/*padding-bottom: 5%;*/
+	padding-top: 15px;
 }
+
+
 .fb_logo{
 	display: inline-block;
 	/*float: left;*/
@@ -501,12 +501,14 @@ footer p{
 #footernav a{
 	color: white;
 	background-color: #555555;
+	font-weight: 300;
+
 }
 
 #footernav a:hover{
 	background-color: #555555;
 	color: white;
-	font-weight: 600;
+	font-weight: 500;
 
 }
 #fb_page{
@@ -957,6 +959,8 @@ footer p{
 }
 
 
+
+
 /*	#footernav a{
 		color: #333;
 		background-color: #6C7A89;
@@ -1078,6 +1082,8 @@ background-color: #DADFE1;
 	#info_contacto{
 		margin: 1em 0px 3em 5%;
 	}
+
+
 
 
 
