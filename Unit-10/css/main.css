@@ -845,6 +845,15 @@ footer p{
 		font-size: 14px;
 	}
 
+	header:after{
+	display: block;
+	content: "";
+	clear: both;
+	height:0;
+	font-size: 0;
+	visibility: hidden;
+}
+
 	/*	Header Style*/
 
 	#homecovertext{ /*Text in the image*/
@@ -1002,6 +1011,10 @@ article:after{
 	font-size: 0;
 	visibility: hidden;
 }
+
+
+
+
 
 #listcondiciones_phone{
 	display: none;
