@@ -16,7 +16,9 @@ body {
 /*header*/
 
 nav {
-	background-color: #1A89BA;	
+	/*background-color: #1A89BA;
+		*/
+	background-color: #0091EA;
 }
 
 nav a {	
@@ -34,6 +36,7 @@ nav a#mobilenav {
 
 nav a:hover {	
 	background-color: #FC9956;
+
 	font-weight: 600;
 }
 
@@ -53,7 +56,8 @@ nav:hover a {
 	font-size: 1.5em;
 	text-decoration: none;
 	display: block;
-	color: #1A89BA;
+	/*color: #1A89BA;*/
+	color: #0091EA;
 } 
 
 .a{
