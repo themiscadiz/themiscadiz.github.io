@@ -11,7 +11,8 @@ body {
 
 	line-height: 1.6;
 	text-align: center;
-	background-color: #F1A9A0;
+	/*background-color: #F1A9A0;*/
+	background-color: #F2F1EF;
 }
 
 /*HEADER*/
@@ -75,14 +76,20 @@ nav:hover a {
 	margin-top: 1em;
 }
 
-#introduction{
-	background-color: #52B3D9;
+#image_intro{
 	width: 100%;
 	height: 300px;
-	color: #ECF0F1;	
+
+}
+#introduction{
+	
+/*	background-color: #F1A9A0;
+	width: 100%;
+	height: 300px;
+	color: #95a5a6;	*/
 }
 #name{
-	color: #ECF0F1;
+	color: #95a5a6;
 }
 #l1{
 	width: 100px;
@@ -131,8 +138,132 @@ nav:hover a {
 }
 #work4:hover{
 	background-color: #1BA39C;
-	/*opacity: 0.05;
+}
+#work5{
+	display: block;
+	width: 50%;
+	height: 150px;
+	float: right;
+	background-color: #D2D7D3;
+}
+#work5:hover{
+	background-color: #6C7A89;
+	/*opacity: 0.2;*/
+}
+#work6{
+	display: block;
+	width: 50%;
+	height: 150px;
+	float: left;
+	background-color: #BDC3C7;
+}
+#work6:hover{
+	background-color: #6C7A89;
+	/*opacity: 0.2;*/
+}
+#work7{
+	display: block;
+	width: 50%;
+	height: 150px;
+	float: right;
+	background-color: #95A5A6;
+}
+#work7:hover{
+	background-color: #6C7A89;
+	/*opacity: 0.2;*/
+}
+#work8{
+	display: block;
+	width: 50%;
+	height: 150px;
+	float: left;
+	background-color: #ABB7B7;
+}
+#work8:hover{
+	background-color: #6C7A89;
+}
+.catalog_section{
+	display: inline-block;
+}
+.Catalog{
+	display: inline-block;
+	border: 1px solid #FFFFFF;
+	padding:.50em;
+	margin-bottom: 1em;
+}
+.Catalog:hover{
+	border: 1px solid #FC9956;
+	padding:.50em;
+	margin-bottom: 1em;
+}
+
+#profile{
+	width: 100%;
+	height: auto;
+}
+#profile_p{
+	width: 70%;
+	height: 150px;
+	background-color: #F1A9A0;
+	color: white;
+	margin-left: 15%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.img_icons{
+	width: 75px;
+	height: auto;
+	display: block;
+}
+#logo_organization{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5em;
+	/*display: inline-block;*/
+	background-color: pink;
+}
+/*#logo_1group{
+	width: 66.59%;
+	display: block;
+	float: left;
+	/*background-color: yellow;*/
 }*/
+
+
+#logo1{
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+	/*float: left;*/
+	/*background-color: yellow;*/
+
+}
+#logo2{
+	width: 100px;
+	display: inline-block;
+	/*float: right;*/
+	/*background-color: blue;*/
+	
+}
+#logo3{
+	width: 100px;
+	display: inline-block;
+	/*float: right;*/
+	/*background-color: red;*/
+	
+}
+
+.p_style{
+	
+	margin: auto;	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	/*padding: .80em;*/
+	color: #444444;
+	font-weight: 400;
+	text-align: center;	
+}
 
 
 /*Fonts*/
